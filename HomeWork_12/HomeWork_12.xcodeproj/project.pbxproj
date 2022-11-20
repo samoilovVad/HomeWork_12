@@ -15,7 +15,9 @@
 		ECABCD7D292A4969008A26AB /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECABCD7C292A4969008A26AB /* SignIn.storyboard */; };
 		ECABCD7F292A4F48008A26AB /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECABCD7E292A4F48008A26AB /* SignUp.storyboard */; };
 		ECABCD81292A5949008A26AB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABCD80292A5949008A26AB /* SignInViewController.swift */; };
-		ECABCD83292A5958008A26AB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABCD82292A5958008A26AB /* SignUpViewController.swift */; };
+		ECABCD83292A5958008A26AB /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABCD82292A5958008A26AB /* CreateAccountViewController.swift */; };
+		ECABCD86292A5FB1008A26AB /* VerificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABCD85292A5FB1008A26AB /* VerificationService.swift */; };
+		ECABCD89292A711A008A26AB /* UIViewController_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABCD88292A711A008A26AB /* UIViewController_Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +31,9 @@
 		ECABCD7C292A4969008A26AB /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		ECABCD7E292A4F48008A26AB /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		ECABCD80292A5949008A26AB /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		ECABCD82292A5958008A26AB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		ECABCD82292A5958008A26AB /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		ECABCD85292A5FB1008A26AB /* VerificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationService.swift; sourceTree = "<group>"; };
+		ECABCD88292A711A008A26AB /* UIViewController_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController_Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 		ECABCD63292A4519008A26AB /* HomeWork_12 */ = {
 			isa = PBXGroup;
 			children = (
+				ECABCD87292A70F4008A26AB /* Extensions */,
+				ECABCD84292A5F6E008A26AB /* Services */,
 				ECABCD79292A491A008A26AB /* Models */,
 				ECABCD7A292A4921008A26AB /* Views */,
 				ECABCD7B292A4927008A26AB /* Controllers */,
@@ -103,9 +109,25 @@
 			isa = PBXGroup;
 			children = (
 				ECABCD80292A5949008A26AB /* SignInViewController.swift */,
-				ECABCD82292A5958008A26AB /* SignUpViewController.swift */,
+				ECABCD82292A5958008A26AB /* CreateAccountViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ECABCD84292A5F6E008A26AB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ECABCD85292A5FB1008A26AB /* VerificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ECABCD87292A70F4008A26AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECABCD88292A711A008A26AB /* UIViewController_Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,8 +204,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECABCD65292A4519008A26AB /* AppDelegate.swift in Sources */,
+				ECABCD86292A5FB1008A26AB /* VerificationService.swift in Sources */,
+				ECABCD89292A711A008A26AB /* UIViewController_Extension.swift in Sources */,
 				ECABCD67292A4519008A26AB /* SceneDelegate.swift in Sources */,
-				ECABCD83292A5958008A26AB /* SignUpViewController.swift in Sources */,
+				ECABCD83292A5958008A26AB /* CreateAccountViewController.swift in Sources */,
 				ECABCD81292A5949008A26AB /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
